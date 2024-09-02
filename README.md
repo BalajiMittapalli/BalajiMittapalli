@@ -1,3 +1,4 @@
+[![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)]
 <h1 align="center">Hi 👋, I'm Laxmipathi Balaji</h1>
 <h3 align="center">A passionate Machine Learning Enthusiast!</h3>
 
