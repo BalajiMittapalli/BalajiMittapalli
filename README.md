@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **mittapallibalaji8@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1pL6BX1-zH8rwytjlXp8kP6KdI18RHjwb/view?usp=drive_link](https://drive.google.com/file/d/1pL6BX1-zH8rwytjlXp8kP6KdI18RHjwb/view?usp=drive_link)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1bYff16fa1XFCvIIBXnAyW_DsdvcFFdXT/view?usp=sharing]
 
 - ⚡ Fun fact **Code, Coffee, Curiosity**
 
