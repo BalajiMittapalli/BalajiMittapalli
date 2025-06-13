@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=balajimittapalli" alt="balajimittapalli" /></a> </p>
 
-- 🌱 I’m currently learning **Deep Learning**
+- 🌱 I’m currently learning **MLOPS**
 
 - 👨‍💻 All of my projects are available at [https://balajimittapalli.github.io/portfolio/](https://balajimittapalli.github.io/portfolio/)
 
