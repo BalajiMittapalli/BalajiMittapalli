@@ -7,18 +7,22 @@ on:
     - cron: "0 4 * * *"
 jobs:
   build:
+    # This block is the fix. It gives the workflow permission to push commits.
+    permissions:
+      contents: write
+      
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # <-- UPDATED
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
       - name: Get Python 3.8
-        uses: actions/setup-python@v5 # <-- UPDATED
+        uses: actions/setup-python@v5
         with:
           python-version: '3.8'
       - name: Configure pip cache
-        uses: actions/cache@v4 # <-- UPDATED
+        uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/cache/requirements.txt') }}
@@ -34,8 +38,6 @@ jobs:
         run: |-
           git add .
           git diff
-          # This configures the author of the commit.
-          # Use your own GitHub username and the standard noreply email.
           git config --global user.email "[YOUR GITHUB USERNAME]@users.noreply.github.com"
           git config --global user.name "[YOUR GITHUB USERNAME]"
           git commit -m "Updated README" -a || echo "No changes to commit"
